@@ -1,0 +1,17 @@
+Extensions:html;php;htm;
+DirExclude:style;js
+Logo:<a href="{ROOTPATH}"><img src="{ROOTPATH}/img/logo.png" /></a>
+
+~BEGIN:
+Home
+--d::0
+--l::index.html
+Utilities
+--d::2
+--f::utilities
+Swu's lab
+--d::2
+--f::labs
+Notes
+--d::0
+--l::nibble

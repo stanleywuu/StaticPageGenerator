@@ -1,0 +1,23 @@
+::ITEM:.:8ball
+- TITLE:.:Magic 8 Ball
+- DESCRIPTION:.:Something on your mind? Ask the Magic 8 Ball
+- TOOL:.:ReactJS
+- PATH:.:{ROOTPATH}/utilities/magicball.html
+- ICON:.:{ROOTPATH}/img/icons/8ball.png
+- ALT:.:Magic 8 Ball
+
+::ITEM:.:Templating
+- TITLE:.:Text Templating
+- DESCRIPTION:.:Trying to save some typing, not sure how it will be useful anymore, will improve on it later
+- TOOL:.:Pure Javascript
+- PATH:.:{ROOTPATH}/utilities/codereplace.html
+- ICON:.:{ROOTPATH}/img/icons/template.png
+- ALT:.:Text Templating
+
+::ITEM:.:Memory
+- TITLE:.:Memory Test
+- DESCRIPTION:.:Tool made to help practicing <a href="http://www.memory-improvement-tips.com/remembering-lists.html">memory pegging technique</a>
+- TOOL:.:ReactJS
+- PATH:.:{ROOTPATH}/utilities/memory.html
+- ICON:.:{ROOTPATH}/img/icons/memory.png
+- ALT:.:Memory Test

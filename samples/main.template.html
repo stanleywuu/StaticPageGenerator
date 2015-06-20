@@ -1,0 +1,32 @@
+<div class="dashboard">
+<!--loop:GROUP-->
+<div class="group" style="margin-top:20px">
+<div class="title" style="display:block">
+<strong>{NAME}</strong>
+<div class="description">{DESCRIPTION}</div>
+</div>
+<!--loop:ITEM-->
+<div class="item" style="display:inline-block;min-width:120px;">
+<a href="{PATH}" target="_blank"><img src='{ICON}' alt='{ALT}'></a>
+<span class="small offset">{TITLE}</span>
+<div class="details hidden">
+<ul>
+ <li class="small">{DESCRIPTION}</li>
+ <li class="small">Made with:{TOOL}</li>
+</ul>
+</div>
+</div>
+<!--eloop:ITEM-->
+</div>
+</div>
+<!--eloop:GROUP-->
+</div>
+<!--loop:LEFT-->
+<div class="summary">
+<div class="summary-wrapper">
+{HTML}
+</div>
+</div>
+<!--eloop:LEFT-->
+
+
