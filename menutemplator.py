@@ -113,7 +113,7 @@ class MenuGenerator:
      toplevel += self.addLink(menu[0], menu[1])
     else:
      toplevel += "<span class=\"parent topmenu\">" + menu[0] + "</span>\n"
-     toplevel += self.processSubmenu(path,menu,1) + "\n"
+    toplevel += self.processSubmenu(path,menu,1) + "\n"
     toplevel += "</div>\n"
     html += toplevel
   html += "\n</div>"
